@@ -63,7 +63,7 @@ main() {
     brew_install 'Slack' 'slack' 'caskroom/cask' 'cask'
   #  brew_install 'Spectacle' 'spectacle' 'caskroom/cask' 'cask'
   #  brew_install 'tmux' 'tmux'
-    brew_install 'Transmission' 'transmission' 'caskroom/cask' 'cask'
+  #  brew_install 'Transmission' 'transmission' 'caskroom/cask' 'cask'
   #  brew_install 'TTF/OTF → WOFF (Zopfli)' 'sfnt2woff-zopfli' 'bramstein/webfonttools'
   #  brew_install 'TTF/OTF → WOFF' 'sfnt2woff' 'bramstein/webfonttools'
     brew_install 'Unarchiver' 'the-unarchiver' 'caskroom/cask' 'cask'
@@ -71,9 +71,9 @@ main() {
     brew_install 'Vim' 'vim --override-system-vi'
     brew_install 'VirtualBox' 'virtualbox' 'caskroom/cask' 'cask'
     brew_install 'VLC' 'vlc' 'caskroom/cask' 'cask'
-    brew_install 'WebKit' 'webkit-nightly' 'caskroom/versions' 'cask'
-    brew_install 'WOFF2' 'woff2' 'bramstein/webfonttools'
-    brew_install 'Zopfli' 'zopfli'
+  #  brew_install 'WebKit' 'webkit-nightly' 'caskroom/versions' 'cask'
+  #  brew_install 'WOFF2' 'woff2' 'bramstein/webfonttools'
+  #  brew_install 'Zopfli' 'zopfli'
 
     print_in_green '\n  ---\n\n'
 
