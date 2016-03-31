@@ -7,6 +7,9 @@ cd "$(dirname "$BASH_SOURCE")" \
 
 set_preferences() {
 
+    execute 'defaults write com.googlecode.iterm2 PromptOnQuit -bool false' \
+        'Don’t display the annoying prompt when quitting iTerm'
+        
     execute 'defaults write com.apple.terminal FocusFollowsMouse -string true' \
         'Make the focus automatically follow the mouse'
 

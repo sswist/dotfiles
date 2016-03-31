@@ -7,6 +7,8 @@ cd "$(dirname "$BASH_SOURCE")" \
 
 set_preferences() {
 
+    dark-mode
+
     execute 'defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true' \
         'Avoid creating ".DS_Store" files on network volumes'
 

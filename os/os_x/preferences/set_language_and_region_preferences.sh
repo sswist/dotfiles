@@ -10,7 +10,7 @@ set_preferences() {
     execute 'defaults write NSGlobalDomain AppleLanguages -array "en"' \
         'Set language'
 
-    execute 'defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"' \
+    execute 'defaults write NSGlobalDomain AppleMeasurementUnits -string "Inches"' \
         'Set measurement units'
 
     execute 'defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false' \
