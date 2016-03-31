@@ -1,4 +1,4 @@
-# [Cătălin](https://github.com/alrra)’s dotfiles
+# [Simon's](https://github.com/sswist)’s dotfiles
 
 These are the base dotfiles that I start with when I set up a
 new environment. For more specific local needs I use the `.local`
@@ -15,8 +15,8 @@ understand [what it does](setup.sh). Seriously, **DON'T**!)
 
 | OS | Snippet |
 |:---:|:---|
-| OS X | `bash -c "$(curl -LsS https://raw.github.com/alrra/dotfiles/master/setup.sh)"` |
-| Ubuntu | `bash -c "$(wget -qO - https://raw.github.com/alrra/dotfiles/master/setup.sh)"` |
+| OS X | `bash -c "$(curl -LsS https://raw.github.com/sswist/dotfiles/master/setup.sh)"` |
+| Ubuntu | `bash -c "$(wget -qO - https://raw.github.com/sswist/dotfiles/master/setup.sh)"` |
 
 That's it! :sparkles:
 
@@ -150,8 +150,8 @@ as the `git` user credentials, e.g.:
 
 ```bash
 [user]
-    name = Cătălin Mariș
-    email = alrra@example.com
+    name = Simon Swist
+    email = sswist@example.com
 ```
 
 #### `~/.vimrc.local`
@@ -168,7 +168,7 @@ Same as `~/.vimrc.local` but for `~/.gvimrc`.
 
 If you decide to fork this project, don't forget to substitute my
 username with your own in the [setup snippets](#setup) and [in the
-`setup` script](https://github.com/alrra/dotfiles/blob/3d614ac304ad072fba0001111f22202415ad7ffc/setup.sh#L3).
+`setup` script](https://github.com/sswist/dotfiles/blob/3d614ac304ad072fba0001111f22202415ad7ffc/setup.sh#L3).
 
 
 ## Update
@@ -182,6 +182,8 @@ run the appropriate [`os` script](os).
 
 Inspiration and code was taken from many sources, including:
 
+* [Simon Swist](https://github.com/sswist)
+  [dotfiles](https://github.com/sswist/dotfiles)
 * [Mathias Bynens'](https://github.com/mathiasbynens)
   [dotfiles](https://github.com/mathiasbynens/dotfiles)
 * [Nicolas Gallagher's](https://github.com/necolas)
