@@ -37,7 +37,7 @@ main() {
   #  brew_install 'Chrome Canary' 'google-chrome-canary' 'caskroom/versions' 'cask'
   #  brew_install 'Chromium' 'chromium' 'caskroom/cask' 'cask'
     brew_install 'Dark Mode' 'dark-mode'
-    brew install 'DockerToolBox' 'dockertoolbox' 'caskroom/cask' 'cask'
+    brew_install 'DockerToolBox' 'dockertoolbox' 'caskroom/cask' 'cask'
     brew_install 'Dropbox' 'dropbox' 'caskroom/cask' 'cask'
   #  brew_install 'FFmpeg' 'ffmpeg'
     brew_install 'Fish' 'fish'
