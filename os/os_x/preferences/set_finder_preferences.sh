@@ -27,7 +27,7 @@ set_preferences() {
     execute 'defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false' \
         'Disable warning when changing a file extension'
 
-    execute 'defaults write com.apple.finder FXPreferredViewStyle -string "clmv"' \
+    execute 'defaults write com.apple.finder FXPreferredViewStyle clmv' \
         'Use column view in all Finder windows by default'
 
     execute 'defaults write com.apple.finder NewWindowTarget -string "PfDe" &&
