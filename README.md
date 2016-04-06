@@ -182,8 +182,8 @@ run the appropriate [`os` script](os).
 
 Inspiration and code was taken from many sources, including:
 
-* [Simon Swist](https://github.com/sswist)
-  [dotfiles](https://github.com/sswist/dotfiles)
+* [Cătălin Mariș](https://github.com/alrra)
+  [dotfiles](https://github.com/alrra/dotfiles)
 * [Mathias Bynens'](https://github.com/mathiasbynens)
   [dotfiles](https://github.com/mathiasbynens/dotfiles)
 * [Nicolas Gallagher's](https://github.com/necolas)
