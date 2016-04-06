@@ -39,6 +39,7 @@ set_preferences() {
 
     execute 'defaults write NSGlobalDomain WebKitDeveloperExtras -bool true' \
         'Add a context menu item for showing the "Web Inspector" in web views'
+  
 
 }
 
