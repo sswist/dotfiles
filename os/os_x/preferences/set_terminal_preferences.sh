@@ -16,8 +16,8 @@ set_preferences() {
     execute 'defaults write com.apple.terminal StringEncodings -array 4' \
         'Only use UTF-8'
 
-    execute 'echo "/usr/local/bin/fish" | sudo tee -a /etc/shells'
-    execute 'chsh -s /usr/local/bin/fish'
+    execute 'echo "/usr/local/bin/fish" | sudo tee -a /etc/shells \
+            chsh -s /usr/local/bin/fish' \
         'Make Fish the default shell'
 
     osascript <<EOD
