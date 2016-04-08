@@ -31,6 +31,7 @@ main() {
 
     brew_install '1Password' '1password' 'caskroom/cask' 'cask'
   #  brew_install 'Android File Transfer' 'android-file-transfer' 'caskroom/cask' 'cask'
+    brew_install 'AppCleaner' 'appcleaner' 'caskroom/cask' 'cask'
     brew_install 'Atom' 'atom' 'caskroom/cask' 'cask'
     brew_install 'Boot2Docker' 'boot2docker' 'caskroom/cask' 'cask'
     brew_install 'Chrome' 'google-chrome' 'caskroom/cask' 'cask'
