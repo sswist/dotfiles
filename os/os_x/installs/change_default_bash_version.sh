@@ -51,7 +51,7 @@ main() {
     # Make OS X use the Bash version installed through Homebrew
     # https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/chsh.1.html
 
-    chsh -s "$HOMEBREW_PREFIX/bin/bash" &> /dev/null
+    #chsh -s "$HOMEBREW_PREFIX/bin/bash" &> /dev/null
     print_result $? 'Bash (use latest version)'
 
 }
