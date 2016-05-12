@@ -64,10 +64,10 @@ set_preferences() {
              /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:textSize 13" ~/Library/Preferences/com.apple.finder.plist' \
         'Set icon label text size'
 
-    execute '/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:labelOnRight true" ~/Library/Preferences/com.apple.finder.plist &&
-             /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:labelOnRight true" ~/Library/Preferences/com.apple.finder.plist &&
-             /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:labelOnRight true" ~/Library/Preferences/com.apple.finder.plist' \
-        'Set icon label position'
+  #  execute '/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:labelOnRight true" ~/Library/Preferences/com.apple.finder.plist &&
+  #           /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:labelOnRight true" ~/Library/Preferences/com.apple.finder.plist &&
+  #           /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:labelOnRight true" ~/Library/Preferences/com.apple.finder.plist' \
+  #      'Set icon label position'
 
     execute '/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist &&
              /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist &&
