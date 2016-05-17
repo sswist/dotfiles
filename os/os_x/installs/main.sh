@@ -64,6 +64,7 @@ main() {
     brew_install 'Reaper' 'reaper' 'caskroom/cask' 'cask'
     brew_install 'Slack' 'slack' 'caskroom/cask' 'cask'
     brew_install 'Spotify' 'spotify' 'caskroom/cask' 'cask'
+    brew_install 'Steam' 'steam' 'caskroom/cask' 'cask'
   #  brew_install 'Spectacle' 'spectacle' 'caskroom/cask' 'cask'
   #  brew_install 'tmux' 'tmux'
   #  brew_install 'Transmission' 'transmission' 'caskroom/cask' 'cask'
