@@ -49,9 +49,9 @@ set_preferences() {
     execute 'defaults write NSGlobalDomain AppleShowAllExtensions -bool true' \
         'Show all filename extensions'
 
-    execute '/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 72" ~/Library/Preferences/com.apple.finder.plist &&
-             /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 72" ~/Library/Preferences/com.apple.finder.plist &&
-             /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 72" ~/Library/Preferences/com.apple.finder.plist' \
+    execute '/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 28" ~/Library/Preferences/com.apple.finder.plist &&
+             /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 28" ~/Library/Preferences/com.apple.finder.plist &&
+             /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 28" ~/Library/Preferences/com.apple.finder.plist' \
         'Set icon size'
 
     execute '/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:gridSpacing 6.5" ~/Library/Preferences/com.apple.finder.plist &&
