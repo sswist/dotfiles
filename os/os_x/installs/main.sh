@@ -21,11 +21,11 @@ main() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    brew_install 'Bash' 'bash'
-    ./change_default_bash_version.sh
-    brew_install 'Bash Completion 2' 'bash-completion2' 'homebrew/versions'
+  #  brew_install 'Bash' 'bash'
+  #  ./change_default_bash_version.sh
+  #  brew_install 'Bash Completion 2' 'bash-completion2' 'homebrew/versions'
 
-    print_in_green '\n  ---\n\n'
+  #  print_in_green '\n  ---\n\n'
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
