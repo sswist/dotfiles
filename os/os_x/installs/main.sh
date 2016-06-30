@@ -75,7 +75,7 @@ main() {
     brew_install 'Vim' 'vim --override-system-vi'
     brew_install 'VirtualBox' 'virtualbox' 'caskroom/cask' 'cask'
     brew_install 'VirtualBox Extension Pack' 'virtualbox-extension-pack' 'caskroom/cask' 'cask'
-  #  brew_install 'VLC' 'vlc' 'caskroom/cask' 'cask'
+    brew_install 'VLC' 'vlc' 'caskroom/cask' 'cask'
   #  brew_install 'WebKit' 'webkit-nightly' 'caskroom/versions' 'cask'
   #  brew_install 'WOFF2' 'woff2' 'bramstein/webfonttools'
   #  brew_install 'Zopfli' 'zopfli'
