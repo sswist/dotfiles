@@ -79,6 +79,9 @@ set_preferences() {
              /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy none" ~/Library/Preferences/com.apple.finder.plist' \
         'Set sort method'
 
+    execute 'sudo mdutil /Volumes/shareName -i on' \
+      'Enable Spotlight indexing on a mounted Volume'
+
 }
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
