@@ -72,7 +72,7 @@ main() {
   #  brew_install 'TTF/OTF → WOFF' 'sfnt2woff' 'bramstein/webfonttools'
     brew_install 'Unarchiver' 'the-unarchiver' 'caskroom/cask' 'cask'
     brew_install 'Vagrant' 'vagrant' 'caskroom/cask' 'cask'
-    brew_install 'Vim' 'vim --override-system-vi'
+  #  brew_install 'Vim' 'vim --override-system-vi'
     brew_install 'VirtualBox' 'virtualbox' 'caskroom/cask' 'cask'
     brew_install 'VirtualBox Extension Pack' 'virtualbox-extension-pack' 'caskroom/cask' 'cask'
     brew_install 'VLC' 'vlc' 'caskroom/cask' 'cask'
