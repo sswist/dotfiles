@@ -13,8 +13,8 @@ set_preferences() {
     execute 'defaults write com.apple.terminal FocusFollowsMouse -string true' \
         'Make the focus automatically follow the mouse'
 
-    execute 'defaults write com.apple.terminal StringEncodings -array 4' \
-        'Only use UTF-8'
+#    execute 'defaults write com.apple.terminal StringEncodings -array 4' \
+#        'Only use UTF-8'
 
     execute 'echo "/usr/local/bin/fish" | sudo tee -a /etc/shells \
             chsh -s /usr/local/bin/fish' \
