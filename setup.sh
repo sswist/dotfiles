@@ -316,18 +316,18 @@ main() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    if cmd_exists 'vim'; then
+  #  if cmd_exists 'vim'; then
 
-        print_info 'Install/Update Vim plugins'
+  #      print_info 'Install/Update Vim plugins'
 
-        ask_for_confirmation 'Do you want to install/update the Vim plugins?'
-        printf '\n'
+  #      ask_for_confirmation 'Do you want to install/update the Vim plugins?'
+  #      printf '\n'
 
-        if answer_is_yes; then
-            ./os/install_vim_plugins.sh
-        fi
+  #      if answer_is_yes; then
+  #          ./os/install_vim_plugins.sh
+  #      fi
 
-    fi
+  #  fi
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
