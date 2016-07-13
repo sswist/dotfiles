@@ -62,6 +62,7 @@ main() {
   #  brew_install 'Opera Developer' 'opera-developer' 'caskroom/versions' 'cask'
     brew_install 'Parallels Desktop' 'parallels-desktop' 'caskroom/cask' 'cask'
     brew_install 'Reaper' 'reaper' 'caskroom/cask' 'cask'
+    brew_install 'Scrivener' 'scrivener' 'caskroom/cask' 'cask'
     brew_install 'Slack' 'slack' 'caskroom/cask' 'cask'
     brew_install 'Spotify' 'spotify' 'caskroom/cask' 'cask'
     brew_install 'Steam' 'steam' 'caskroom/cask' 'cask'
