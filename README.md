@@ -16,7 +16,6 @@ understand [what it does](setup.sh). Seriously, **DON'T**!)
 | OS | Snippet |
 |:---:|:---|
 | OS X | `bash -c "$(curl -LsS https://raw.github.com/sswist/dotfiles/master/setup.sh)"` |
-| Ubuntu | `bash -c "$(wget -qO - https://raw.github.com/sswist/dotfiles/master/setup.sh)"` |
 
 That's it! :sparkles:
 
@@ -34,7 +33,7 @@ The setup process will:
   [Ubuntu](os/ubuntu/installs/main.sh)
 * Set custom
   [OS X](os/os_x/preferences/main.sh) /
-  [Ubuntu](os/ubuntu/preferences/main.sh) preferences
+  preferences
 * Install [vim plugins](vim/vim/plugins)
 
 <table>
@@ -80,22 +79,6 @@ The setup process will:
             </td>
             <td>
                 <img src="https://cloud.githubusercontent.com/assets/1223565/10560955/4b5e1300-7523-11e5-9e96-95ea67de9474.png" alt="Output for Git log on Ubuntu" width="100%">
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-
-##### tmux + vim
-
-<table>
-    <tbody>
-        <tr>
-            <td>
-                <img src="https://cloud.githubusercontent.com/assets/1223565/10561007/498e1212-7525-11e5-8252-81503b3d6184.png" alt="tmux and vim on OS X" width="100%">
-            </td>
-            <td>
-                <img src="https://cloud.githubusercontent.com/assets/1223565/10560956/557ca2de-7523-11e5-9000-fc1e189a95f5.png" alt="tmux and vim on Ubuntu" width="100%">
             </td>
         </tr>
     </tbody>
@@ -153,16 +136,6 @@ as the `git` user credentials, e.g.:
     name = Simon Swist
     email = sswist@example.com
 ```
-
-#### `~/.vimrc.local`
-
-If the `~/.vimrc.local` file exists, it will be automatically sourced
-after `~/.vimrc`, thus, allowing its content to add or overwrite the
-settings from `~/.vimrc`.
-
-#### `~/.gvimrc.local`
-
-Same as `~/.vimrc.local` but for `~/.gvimrc`.
 
 ### Forks
 
