@@ -126,6 +126,8 @@ set_preferences() {
     execute 'defaults write com.apple.mail DisableInlineAttachmentViewing -bool true' \
         'Disable inline attachments (just show the icons)'
 
+    execute 'defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false' \
+        'Disable Autocorrect'
 
 
 }
