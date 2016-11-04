@@ -57,6 +57,7 @@ main() {
     brew_install 'iTerm2' 'iterm2' 'caskroom/cask' 'cask'
   #  brew_install 'LICEcap' 'licecap' 'caskroom/cask' 'cask'
   #  brew_install 'LibreOffice' 'libreoffice' 'caskroom/cask' 'cask'
+    brew_install 'Microsoft Office' 'microsoft-office' 'caskroom/cask' 'cask' 
   #  brew_install 'Node' 'node'
   #  brew_install 'Opera' 'opera' 'caskroom/cask' 'cask'
   #  brew_install 'Opera Beta' 'opera-beta' 'caskroom/versions' 'cask'
