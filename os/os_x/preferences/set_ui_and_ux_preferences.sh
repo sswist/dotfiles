@@ -129,6 +129,9 @@ set_preferences() {
     execute 'defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false' \
         'Disable Autocorrect'
 
+    execute 'defaults write "Apple Global Domain" "AppleInterfaceStyle" "Dark"' \
+            'Enable Dark Mode'
+
 
 }
 
