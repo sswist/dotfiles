@@ -48,7 +48,7 @@ main() {
   #  brew_install 'Firefox Developer' 'firefoxdeveloperedition' 'caskroom/versions' 'cask'
   #  brew_install 'Firefox Nightly' 'firefox-nightly' 'caskroom/versions' 'cask'
     brew_install 'Flash' 'flash' 'caskroom/cask' 'cask'
-  #  brew_install 'GIMP' 'lisanet-gimp' 'caskroom/cask' 'cask'
+    brew_install 'GIMP' 'lisanet-gimp' 'caskroom/cask' 'cask'
     brew_install 'Git' 'git'
     brew_install 'Google Drive' 'google-backup-and-sync' 'caskroom/cask' 'cask'
   #  brew_install 'ImageAlpha' 'imagealpha' 'caskroom/cask' 'cask'
