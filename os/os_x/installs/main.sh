@@ -50,7 +50,7 @@ main() {
     brew_install 'Flash' 'flash' 'caskroom/cask' 'cask'
   #  brew_install 'GIMP' 'lisanet-gimp' 'caskroom/cask' 'cask'
     brew_install 'Git' 'git'
-  #  brew_install 'Google Drive' 'google-drive' 'caskroom/cask' 'cask'
+    brew_install 'Google Drive' 'google-backup-and-sync' 'caskroom/cask' 'cask'
   #  brew_install 'ImageAlpha' 'imagealpha' 'caskroom/cask' 'cask'
   #  brew_install 'ImageMagick' 'imagemagick --with-webp'
   #  brew_install 'ImageOptim' 'imageoptim' 'caskroom/cask' 'cask'
