@@ -34,7 +34,6 @@ The setup process will:
 * Set custom
   [OS X](os/os_x/preferences/main.sh) /
   preferences
-* Install [vim plugins](vim/vim/plugins)
 
 <table>
     <tbody>
@@ -42,9 +41,6 @@ The setup process will:
         <tr>
             <td>
                 <img src="https://cloud.githubusercontent.com/assets/1223565/11821505/91e437be-a372-11e5-9500-025c316fe22c.gif" alt="Setup process on OS X" width="100%">
-            </td>
-            <td>
-                <img src="https://cloud.githubusercontent.com/assets/1223565/12219151/086e5f92-b73f-11e5-9ecb-f4821981e06d.gif" alt="Setup process on Ubuntu" width="100%">
             </td>
         </tr>
     </tbody>
@@ -63,9 +59,6 @@ The setup process will:
             <td>
                 <img src="https://cloud.githubusercontent.com/assets/1223565/10561038/f9f11a28-7525-11e5-8e1d-a304ad3557f9.png" alt="Output for Git status on OS X" width="100%">
             </td>
-            <td>
-                <img src="https://cloud.githubusercontent.com/assets/1223565/8397636/3708d218-1ddb-11e5-9d40-21c6871271b9.png" alt="Output for Git status on Ubuntu" width="100%">
-            </td>
         </tr>
     </tbody>
 </table>
@@ -76,9 +69,6 @@ The setup process will:
         <tr>
             <td>
                 <img src="https://cloud.githubusercontent.com/assets/1223565/10560966/e4ec08a6-7523-11e5-8941-4e12f6550a63.png" alt="Output for Git status on OS X" width="100%">
-            </td>
-            <td>
-                <img src="https://cloud.githubusercontent.com/assets/1223565/10560955/4b5e1300-7523-11e5-9e96-95ea67de9474.png" alt="Output for Git log on Ubuntu" width="100%">
             </td>
         </tr>
     </tbody>
