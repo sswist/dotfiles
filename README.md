@@ -7,7 +7,7 @@ files described in the [`Local Settings`](#local-settings) section.
 
 ## Setup
 
-To setup the dotfiles just run the appropriate snippet in the
+To setup the dotfiles just run the following snippet in the
 terminal:
 
 (:warning: **DO NOT** run the setup snippet if you don't fully
@@ -15,7 +15,7 @@ understand [what it does](setup.sh). Seriously, **DON'T**!)
 
 | OS | Snippet |
 |:---:|:---|
-| OS X | `bash -c "$(curl -LsS https://raw.github.com/sswist/dotfiles/master/setup.sh)"` |
+| macOS | `bash -c "$(curl -LsS https://raw.github.com/sswist/dotfiles/master/setup.sh)"` |
 
 That's it! :sparkles:
 
@@ -25,14 +25,13 @@ The setup process will:
   `~/projects/dotfiles`)
 * Create some additional [directories](os/create_directories.sh)
 * [Symlink](os/create_symbolic_links.sh) the
-  [git](git),
-  [shell](shell), and
-  [vim](vim) files
+  [git](git), and
+  [shell](shell) files.
+
 * Install applications / command-line tools for
-  [OS X](os/os_x/installs/main.sh) /
-  [Ubuntu](os/ubuntu/installs/main.sh)
+  [macOS](os/os_x/installs/main.sh) /
 * Set custom
-  [OS X](os/os_x/preferences/main.sh) /
+  [macOS](os/os_x/preferences/main.sh) /
   preferences
 
 <table>
@@ -40,7 +39,7 @@ The setup process will:
         <tr><td colspan="2">Setup process in action</tr></td>
         <tr>
             <td>
-                <img src="https://cloud.githubusercontent.com/assets/1223565/11821505/91e437be-a372-11e5-9500-025c316fe22c.gif" alt="Setup process on OS X" width="100%">
+                <img src="https://cloud.githubusercontent.com/assets/1223565/11821505/91e437be-a372-11e5-9500-025c316fe22c.gif" alt="Setup process on macOS" width="100%">
             </td>
         </tr>
     </tbody>
@@ -57,7 +56,7 @@ The setup process will:
         <tr><td colspan="2">Output for Git status</tr></td>
         <tr>
             <td>
-                <img src="https://cloud.githubusercontent.com/assets/1223565/10561038/f9f11a28-7525-11e5-8e1d-a304ad3557f9.png" alt="Output for Git status on OS X" width="100%">
+                <img src="https://cloud.githubusercontent.com/assets/1223565/10561038/f9f11a28-7525-11e5-8e1d-a304ad3557f9.png" alt="Output for Git status on macOS" width="100%">
             </td>
         </tr>
     </tbody>
@@ -68,7 +67,7 @@ The setup process will:
         <tr><td colspan="2">Output for Git log</tr></td>
         <tr>
             <td>
-                <img src="https://cloud.githubusercontent.com/assets/1223565/10560966/e4ec08a6-7523-11e5-8941-4e12f6550a63.png" alt="Output for Git status on OS X" width="100%">
+                <img src="https://cloud.githubusercontent.com/assets/1223565/10560966/e4ec08a6-7523-11e5-8941-4e12f6550a63.png" alt="Output for Git status on macOS" width="100%">
             </td>
         </tr>
     </tbody>
