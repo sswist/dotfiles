@@ -132,6 +132,8 @@ set_preferences() {
     execute 'defaults write "Apple Global Domain" "AppleInterfaceStyle" "Dark"' \
             'Enable Dark Mode'
 
+    execute 'networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1 8.8.8.8' \
+            'Update DNS'
 
 }
 
