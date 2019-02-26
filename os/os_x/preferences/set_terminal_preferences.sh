@@ -20,6 +20,9 @@ set_preferences() {
             chsh -s /usr/local/bin/fish' \
           'Make Fish the default shell'
 
+    execute 'vagrant plugin install vagrant-disksize'
+          'Install Vagrant Disk Size Plugin'
+
     osascript <<EOD
 
     tell application "Terminal"

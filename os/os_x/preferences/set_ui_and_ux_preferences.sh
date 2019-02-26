@@ -129,8 +129,15 @@ set_preferences() {
     execute 'defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false' \
         'Disable Autocorrect'
 
-    execute 'defaults write "Apple Global Domain" "AppleInterfaceStyle" "Dark"' \
-            'Enable Dark Mode'
+    osascript <<EOD
+            tell application "System Events"
+	               tell appearance preferences
+		             set dark mode to not dark mode
+	             end tell
+            end tell
+
+EOD
+      print_result $? 'Turn on Dark Mode'
 
     execute 'networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1 8.8.8.8' \
             'Update DNS'
