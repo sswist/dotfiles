@@ -129,6 +129,9 @@ set_preferences() {
     execute 'defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false' \
         'Disable Autocorrect'
 
+    execute 'sudo spctl --master-disable' \
+        'Open Apps from 3rd party developers'
+
     execute 'defaults write com.apple.finder CreateDesktop false \
             killall Finder' \
             'Hide Desktop Icons'

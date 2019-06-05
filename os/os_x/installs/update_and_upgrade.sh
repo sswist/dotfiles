@@ -14,7 +14,7 @@ main() {
     execute 'sudo softwareupdate --install --all' 'Update system software'
     printf '\n'
 
-    execute 'sudo spctl --master-disable'
+    #execute 'sudo spctl --master-disable'
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
