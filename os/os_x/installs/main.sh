@@ -17,6 +17,7 @@ main() {
     ./install_homebrew.sh
     brew_install 'Homebrew Cask' 'caskroom/cask/brew-cask' 'caskroom/cask'
 
+    ./update_and_upgrade.sh
     print_in_green '\n  ---\n\n'
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -103,7 +104,7 @@ main() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    ./update_and_upgrade.sh
+    
     ./cleanup.sh
 
 }
