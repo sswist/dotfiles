@@ -56,7 +56,7 @@ main() {
     brew_install 'Git' 'git'
     brew_install 'Google Backup and Sync' 'google-backup-and-sync' 'caskroom/cask' 'cask'
     brew_install 'Google File Stream' 'google-drive-file-stream' 'caskroom/cask' 'cask'
-    brew_install 'Google Earth Pro' 'google-earth-pro' 'caskroom/cask' 'cask'
+  #  brew_install 'Google Earth Pro' 'google-earth-pro' 'caskroom/cask' 'cask'
   #  brew_install 'ImageAlpha' 'imagealpha' 'caskroom/cask' 'cask'
     brew_install 'ImageMagick' 'imagemagick'
     brew_install 'iPerf3' 'iperf3'
